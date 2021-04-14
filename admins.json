@@ -1,0 +1,21 @@
+[
+  {
+    "name": "NakaNerd",
+    "master": true,
+    "password_hash": "$2a$11$Dl11k61rV1jotjlas2Rw2OzHrgcB7QprsUzJwEmeRP3is.S5pi7vG",
+    "providers": {
+      "citizenfx": {
+        "id": "NakaNerd",
+        "identifier": "fivem:1918928",
+        "data": {
+          "nameid": "https://forum.cfx.re/internal/user/1918928",
+          "name": "NakaNerd",
+          "profile": "https://forum.cfx.re/u/NakaNerd",
+          "picture": "https://avatars.discourse.org/v4/letter/n/7933a0/256.png",
+          "sub": "47cb3909cec2e5d89d3b490a37315655c21d2d0a2a8581915eedd25e1fbbfe45"
+        }
+      }
+    },
+    "permissions": []
+  }
+]

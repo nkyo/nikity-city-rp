@@ -1,0 +1,1 @@
+exports.spawnmanager:setAutoSpawn(true)
