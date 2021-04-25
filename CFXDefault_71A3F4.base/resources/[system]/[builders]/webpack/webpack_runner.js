@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+const weebpack = require('webpack');
 const path = require('path');
 const fs = require('fs');
 
@@ -59,7 +59,7 @@ module.exports = (inp, callback) => {
 
 	config.plugins.push(new SaveStatePlugin(inp));
 	
-	webpack(config, (err, stats) => {
+	weebpack(config, (err, stats) => {
 		if (err) {
 			callback(err);
 			return;

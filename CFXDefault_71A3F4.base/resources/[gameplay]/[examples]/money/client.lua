@@ -12,19 +12,3 @@ AddEventHandler('money:displayUpdate', function(type, money)
 end)
 
 TriggerServerEvent('money:requestDisplay')
-
-CreateThread(function()
-    while true do
-        Wait(0)
-
-        if IsControlJustPressed(0, 20) then
-            SetMultiplayerBankCash()
-            SetMultiplayerWalletCash()
-
-            Wait(4350)
-
-            RemoveMultiplayerBankCash()
-            RemoveMultiplayerWalletCash()
-        end
-    end
-end)

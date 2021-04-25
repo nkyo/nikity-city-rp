@@ -222,13 +222,6 @@ function spawnPlayer(spawnIdx, cb)
 
         if type(spawnIdx) == 'table' then
             spawn = spawnIdx
-
-            -- prevent errors when passing spawn table
-            spawn.x = spawn.x + 0.00
-            spawn.y = spawn.y + 0.00
-            spawn.z = spawn.z + 0.00
-
-            spawn.heading = spawn.heading and (spawn.heading + 0.00) or 0
         else
             spawn = spawnPoints[spawnIdx]
         end
@@ -312,7 +305,6 @@ function spawnPlayer(spawnIdx, cb)
         end
 
         ShutdownLoadingScreen()
-        ShutdownLoadingScreenNui()
 
         if IsScreenFadedOut() then
             DoScreenFadeIn(500)
