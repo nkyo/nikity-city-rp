@@ -305,6 +305,7 @@ function spawnPlayer(spawnIdx, cb)
         end
 
         ShutdownLoadingScreen()
+        ShutdownLoadingScreenNui()
 
         if IsScreenFadedOut() then
             DoScreenFadeIn(500)

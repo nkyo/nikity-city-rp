@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+		<Item>
+			<lockHash>CU_XJ14_VINDI</lockHash>
+			<modelNameHash>xj14</modelNameHash>
+			<cost value="100"/>
+			<textLabel>XJ14</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+		<Item>
+			<lockHash>CU_xj6turbo_VINDI</lockHash>
+			<modelNameHash>xj6turbo</modelNameHash>
+			<cost value="100"/>
+			<textLabel>xj6turbo</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+	</Vehicles>	
+</ShopVehicleDataArray>
